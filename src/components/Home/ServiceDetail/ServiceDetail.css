@@ -1,0 +1,41 @@
+.card-info{
+    margin-left: 75px;
+    /* padding: 0px 10px; */
+    /* padding-right: 108px; */
+}  
+.card-info h6{
+color: #24262A;
+    font-size: 15px;
+    font-weight: 700;
+}
+.card-info h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.info-icon{
+font-size: 40px;
+}
+.card-info:hover .btn-brand{
+    background: transparent; 
+      border: 1px solid #F69323;
+      color:#F69323;
+}
+@media (max-width: 768px) {
+    .card-info{
+        margin-left: 55px;
+       
+    } 
+  }
+  @media (max-width: 375px) {
+    .card-info{
+        margin-left: 25px;
+       
+    } 
+  }
+  
+  @media (max-width: 425px) {
+    .card-info{
+        margin-left: 25px;
+      
+    } 
+    }

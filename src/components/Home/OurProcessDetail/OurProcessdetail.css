@@ -1,0 +1,16 @@
+.number-process{
+color: #F69323;
+font-size: 40px;
+}
+.title-process{
+color: white;
+}
+p{
+color: white;
+}
+.our-process:hover .number-process{
+color: white;
+}
+.our-process:hover .title-process{
+    color: #F69323;
+    }

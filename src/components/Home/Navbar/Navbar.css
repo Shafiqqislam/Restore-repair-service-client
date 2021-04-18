@@ -1,0 +1,23 @@
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+   
+ 
+}
+.navbar-light .navbar-nav .nav-link:hover {
+   
+    font-weight: 700;
+    
+}
+.social-nav .icon{
+    height: 40px;
+    width: 40px;
+    color: #F69323;
+    border-radius: 50%;
+    border: 1px solid #F69323;
+    padding: 10px;
+}
+.social-nav :hover{
+    background-color: #F69323 ;
+    color:white;
+}

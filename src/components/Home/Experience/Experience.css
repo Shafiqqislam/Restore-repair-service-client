@@ -1,0 +1,61 @@
+.btn-contact1{
+    background: #F69323;
+      border: 1px solid #F69323;
+      padding: 13px 60px;
+      font-size: 22px;
+      border-radius: 30px;
+      color: white;
+      font-weight: 500;
+  }
+  
+  .btn-contact2{
+    background: transparent;
+      border: 1px solid #F69323;
+      padding: 13px 60px;
+      font-size: 22px;
+      border-radius: 30px;
+      
+      font-weight: 500;
+  }
+@media (max-width: 768px) {
+    .btn-contact1{
+      
+        padding: 7px 43px;
+        font-size: 10px;
+        font-weight: 500;
+    } 
+    .btn-contact2{
+        padding: 7px 43px;
+        font-size: 10px;
+        font-weight: 500;
+       
+    } 
+  }
+  @media (max-width: 375px) {
+    .btn-contact1{
+      
+        padding: 7px 43px;
+        font-size: 10px;
+        font-weight: 500;
+    } 
+    .btn-contact2{
+        padding: 7px 43px;
+        font-size: 10px;
+        font-weight: 500;
+       
+    } 
+  }
+  
+  @media (max-width: 425px) {
+    .btn-contact1{
+        padding: 8px 48px;
+        font-size: 12px;
+        font-weight: 500;
+    } 
+    .btn-contact2{
+        padding: 8px 48px;
+        font-size: 12px;
+        font-weight: 500;
+       
+    } 
+    }

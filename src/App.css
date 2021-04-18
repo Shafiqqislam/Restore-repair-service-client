@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn-brand{
+  margin-right: 18px;
+  border-radius: 0;
+  background: #F69323;
+  color: #ffff;
+  border: 1px solid #F69323;
+  font-size: 12px;
+  font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 0px 2px 0px #F69323;
+    color: #4d4d52;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'SourceSansPro Bold',sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border: 1px solid #F69323;
+  }
+  .btn-brand:hover{
+    background: transparent; 
+      border: 1px solid #F69323;
+      color: #F69323;
+     
+    box-shadow: 0px 0px 6px 2px #F69323;
+   }
+   .heading span{
+    height: 3px; 
+    width: 0px;
+    display: inline-block;
+    background-color: #F69323;
+    transition: .4s all ease-in-out;
+}
+.heading:hover span{
+    width: 10%;
+}
+/*  */
+.manage-product{
+  list-style: none;
+  display: flex;
+  border: 1px solid gray;
+  width: 400px;
+  justify-content: space-between;
+  background: floralwhite;
+  margin-left: 481px;
+  box-shadow: 0px 7px 16px grey;
+  margin-top: 15px;
+ 
+}
+@media (max-width: 768px) {
+  .manage-product{
+      list-style: none;
+      display: flex;
+      border: 1px solid gray;
+      width: 400px;
+      justify-content: space-between;
+      background: floralwhite;
+      margin-left: 40px;
+      box-shadow: 0px 7px 16px grey;
+      margin-top: 15px;
+     
+  }
+}
+@media (max-width: 375px) {
+  .manage-product{
+      list-style: none;
+      display: flex;
+      border: 1px solid gray;
+      width: 400px;
+      justify-content: space-between;
+      background: floralwhite;
+      margin-left: 1px;
+      box-shadow: 0px 7px 16px grey;
+      margin-top: 15px;
+     
+  }
+}
+
+@media (max-width: 425px) {
+  .manage-product{
+      list-style: none;
+      display: flex;
+      border: 1px solid gray;
+      width: 400px;
+      justify-content: space-between;
+      background: floralwhite;
+      margin-left: 1px;
+      box-shadow: 0px 7px 16px grey;
+      margin-top: 15px;
+     
+  }
+  }
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.form-container{
+  background-color:#15141a;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

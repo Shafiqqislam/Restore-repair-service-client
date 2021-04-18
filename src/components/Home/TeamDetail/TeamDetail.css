@@ -1,0 +1,82 @@
+.team h4{
+    font-size: 22px;
+    color: #363636;
+    margin-bottom: 0;padding-top: 18px;
+}
+.team:hover h4{
+ color: #f69165;   
+}
+.team p{
+font-size: 14px;
+padding-top: 0;
+font-family: 'Roboto', sans-serif;
+}
+.team span{
+
+width: 349px;
+
+background:#00cce1;
+
+height: 5px;
+
+display: inline-block;
+
+transition: .4s all ease-in-out;
+}
+.team-detail{
+    background: #ffffff;
+}
+@media (max-width: 768px) {
+    .team span{
+
+        width: 250px;
+        height: 5px;
+        }
+  }
+.team:hover span{
+  background: #f69165; 
+  width:349px; 
+}
+.item-logo{
+ 
+    position: absolute;
+    
+    top: 35%;
+    
+    left: 43%;
+    
+    transform: translate(-35%, -43%);
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    }
+    .item-logo ul{
+    
+    list-style: none;
+    
+    display: flex;
+    
+    padding: 0%;
+    
+    margin: 0%;
+    
+    width: 38px;
+    
+    color: #ffff;
+    
+    justify-content:space-between;
+    
+    width: 67px;
+    }
+    .item-logo ul li{
+       border: 1px solid #ffff;
+        padding: 6px 13px;
+        border-radius: 0px;
+        margin: 2px;
+    }
+    .item-logo ul li:hover{
+       background: #f69165;
+       border: 1px solid #f69165;
+    }
+    .show-gallary:hover .item-logo{
+        opacity: 1;
+    }
